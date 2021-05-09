@@ -35,10 +35,11 @@ to your `netlify.toml` file:
   package = "@bharathvaj/netlify-plugin-airbrake"
 
   [plugins.inputs]
-    airbrakeProjectId = ""
-    airbrakeEnvironment = ""
-    airbrakeUsername = ""
-    airbrakeUsername= "
+    airbrakeProjectId = "123456"
+    airbrakeEnvironment = "staging"
+    airbrakeUsername = "john"
+    airbrakeUseremail= "john@smith.com"
+    airbrakeVersion= "v2"
 ```
 
 Note: The `[[plugins]]` line is required for each plugin installed via
