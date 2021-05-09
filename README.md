@@ -37,8 +37,8 @@ to your `netlify.toml` file:
   [plugins.inputs]
     airbrakeProjectId = "123456"
     airbrakeEnvironment = "staging"
-    airbrakeUsername = "john"
-    airbrakeUseremail= "john@smith.com"
+    airbrakeDeployUserName = "john"
+    airbrakeDeployUserEmail= "john@smith.com"
     airbrakeVersion= "v2"
 ```
 
@@ -84,10 +84,10 @@ to configure these values:
 
 #### Plugin Inputs
 
-| name                  | description        | example        |
-| --------------------- | ------------------ | -------------- |
-| `airbrakeProjectId`   | Project Id         | -              |
-| `airbrakeEnvironment` | Deploy Environment | production     |
-| `airbrakeUsername`    | Deploy user name   | john           |
-| `airbrakeUserEmail`   | Deploy user email  | john@smith.com |
-| `airbrakeVersion`     | Deploy version     | v2             |
+| name                      | description        | example        |
+| ------------------------- | ------------------ | -------------- |
+| `airbrakeProjectId`       | Project Id         | -              |
+| `airbrakeEnvironment`     | Deploy Environment | production     |
+| `airbrakeDeployUserName`  | Deploy user name   | john           |
+| `airbrakeDeployUserEmail` | Deploy user email  | john@smith.com |
+| `airbrakeVersion`         | Deploy version     | v2             |

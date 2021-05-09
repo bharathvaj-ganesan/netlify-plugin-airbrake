@@ -30,8 +30,10 @@ module.exports = {
       if (runningInNetlify) {
         await airbrake.createDeploy(airbrakeProjectId, airbrakeProjectKey, {
           environment: env.AIRBRAKE_ENVIRONMENT || inputs.airbrakeEnvironment,
-          username: env.AIRBRAKE_DEPLOY_USER_NAME || inputs.airbrakeUserName,
-          email: env.AIRBRAKE_DEPLOY_USER_EMAIL || inputs.airbrakeUserEmail,
+          username:
+            env.AIRBRAKE_DEPLOY_USER_NAME || inputs.airbrakeDeployUserName,
+          email:
+            env.AIRBRAKE_DEPLOY_USER_EMAIL || inputs.airbrakeDeployUserEmail,
           revision: env.AIRBRAKE_VERSION || inputs.airbrakeVersion,
           repository: airbrakeRepo,
           version: airbrakeRevision,

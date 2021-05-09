@@ -4,9 +4,9 @@ inputs:
     description: Airbrake Project ID
   - name: airbrakeEnvironment
     description: Airbrake Deploy Environment
-	- name: airbrakeVersion
+  - name: airbrakeVersion
     description: Airbrake Deploy Version
-  - name: airbrakeUsername
+  - name: airbrakeDeployUserName
     description: Airbrake Deploy User name
-  - name: airbrakeUserEmail
+  - name: airbrakeDeployUserEmail
     description: Airbrake Deploy User email
