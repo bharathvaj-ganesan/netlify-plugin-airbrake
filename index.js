@@ -2,7 +2,7 @@ const airbrake = require('./airbrake');
 
 module.exports = {
   async onPostBuild(pluginApi) {
-    const { inputs, utils } = pluginApi;
+    const { inputs, utils, constants } = pluginApi;
     const { IS_LOCAL } = constants;
     const env = require('process').env;
     try {
