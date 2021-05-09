@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "The Airbrake Netlify build plugin automatically notifies Airbrake of new deploys made to your site after it finishes building in Netlify.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bharathvaj-ganesan/netlify-plugin-airbrake.git"
   },
-  "keywords": [],
+  "keywords": [
+    "netlify",
+    "netlify-build-plugin",
+    "netlify-plugin",
+    "error-monitoring",
+    "error-tracking",
+    "airbrake"
+  ],
   "author": "Bharathvaj Ganesan <bharathvaj1995@gmail.com>",
   "license": "MIT",
   "bugs": {
