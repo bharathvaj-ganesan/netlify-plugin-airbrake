@@ -1,0 +1,12 @@
+name: netlify-plugin-airbrake
+inputs:
+  - name: airbrakeProjectId
+    description: Airbrake Project ID
+  - name: airbrakeEnvironment
+    description: Airbrake Deploy Environment
+	- name: airbrakeVersion
+    description: Airbrake Deploy Version
+  - name: airbrakeUsername
+    description: Airbrake Deploy User name
+  - name: airbrakeUserEmail
+    description: Airbrake Deploy User email
