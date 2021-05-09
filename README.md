@@ -3,6 +3,8 @@
 Automatically notify [Airbrake](https://airbrake.io/) of new releases being
 deployed to your site after it finishes building in Netlify.
 
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/bharathvaj-ganesan/netlify-plugin-airbrake"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
+
 The Airbrake Netlify build plugin:
 
 - Notifies Airbrake of new releases being deployed.
@@ -40,6 +42,12 @@ to your `netlify.toml` file:
     airbrakeDeployUserName = "john"
     airbrakeDeployUserEmail= "john@smith.com"
     airbrakeVersion= "v2"
+```
+
+Finally, add the plugin as a dev dependency.
+
+```
+npm i @bharathvaj/netlify-plugin-airbrake -D
 ```
 
 Note: The `[[plugins]]` line is required for each plugin installed via
@@ -91,3 +99,11 @@ to configure these values:
 | `airbrakeDeployUserName`  | Deploy user name   | john           |
 | `airbrakeDeployUserEmail` | Deploy user email  | john@smith.com |
 | `airbrakeVersion`         | Deploy version     | v2             |
+
+## Demo
+
+To know how this plugin works, here is the demo repo and build log links
+
+[Demo Repo](https://github.com/bharathvaj-ganesan/netlify-playground)
+
+[Demo Logs](https://app.netlify.com/sites/pedantic-tesla-a2d422/deploys/60977e0eb33876000793c6d4)
