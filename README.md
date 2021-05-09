@@ -106,4 +106,4 @@ To know how this plugin works, here is the demo repo and build log links
 
 [Demo Repo](https://github.com/bharathvaj-ganesan/netlify-playground)
 
-[Demo Logs](https://app.netlify.com/sites/pedantic-tesla-a2d422/deploys/60977e0eb33876000793c6d4)
+[Demo Logs](https://app.netlify.com/sites/pedantic-tesla-a2d422/deploys/60978ba180c8561836aa04ee)
