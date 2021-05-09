@@ -34,9 +34,9 @@ module.exports = {
             env.AIRBRAKE_DEPLOY_USER_NAME || inputs.airbrakeDeployUserName,
           email:
             env.AIRBRAKE_DEPLOY_USER_EMAIL || inputs.airbrakeDeployUserEmail,
-          revision: env.AIRBRAKE_VERSION || inputs.airbrakeVersion,
+          version: env.AIRBRAKE_VERSION || inputs.airbrakeVersion,
           repository: airbrakeRepo,
-          version: airbrakeRevision,
+          revision: airbrakeRevision,
         });
       }
     } catch (error) {
