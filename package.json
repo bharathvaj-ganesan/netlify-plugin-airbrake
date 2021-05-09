@@ -1,6 +1,6 @@
 {
   "name": "@bharathvaj/netlify-plugin-airbrake",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The Airbrake Netlify build plugin automatically notifies Airbrake of new deploys made to your site after it finishes building in Netlify.",
   "main": "index.js",
   "repository": {
